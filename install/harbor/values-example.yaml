@@ -14,5 +14,5 @@ registry:
 git:
   account: tanzu-end-to-end-az
   branch: main
-  gitHubToken: "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"
+    gitHubToken: "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"
 

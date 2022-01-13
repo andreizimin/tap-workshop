@@ -2,8 +2,8 @@
 ---
 ingress:
   domain: "tlc.az2.andreizimin.com"
-  contour_tls_namespace: learningcenter
-  contour_tls_secret: eduk8s-cert-tls
+  contour_tls_namespace: tanzu-system-ingress
+  contour_tls_secret: aks-ingress-tls
 harbor:
   adminPassword: Harbor12345
   diskSize: 50Gi

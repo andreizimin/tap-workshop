@@ -1,18 +1,18 @@
 #@data/values
 ---
 ingress:
-  domain: <INGRESS-DOMAIN>
-  contour_tls_namespace: eduk8s
+  domain: "tlc.az2.andreizimin.com"
+  contour_tls_namespace: learningcenter
   contour_tls_secret: eduk8s-cert-tls
 harbor:
   adminPassword: Harbor12345
   diskSize: 50Gi
 gitea:
-  adminPassword: <PASSWORD>
+  adminPassword: Gitea12345
 registry:
   dockerhub: docker.io
 git:
-  account: tanzu-end-to-end
+  account: tanzu-end-to-end-az
   branch: main
   #! Optionally, you can specify a Github token. This will be used by Harbor's Trivy scanner to avoid hitting rate limites
   #!   gitHubToken: <token>

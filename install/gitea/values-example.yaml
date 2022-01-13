@@ -14,6 +14,5 @@ registry:
 git:
   account: tanzu-end-to-end-az
   branch: main
-  #! Optionally, you can specify a Github token. This will be used by Harbor's Trivy scanner to avoid hitting rate limites
-  #!   gitHubToken: <token>
+  gitHubToken: "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"
 
